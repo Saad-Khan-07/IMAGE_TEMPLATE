@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import templateImageSrc from './TEMPLATE.png';
+import templateImageSrc from './template2.png';
 
 const CanvaTemplate = () => {
   const canvasRef = useRef(null);
@@ -7,8 +7,8 @@ const CanvaTemplate = () => {
 
   // Template image coordinates
   const templateCoords = {
-    x1: 19, y1: 63,
-    x2: 392, y2: 434
+    x1: 254, y1: 254,
+    x2: 824, y2: 824
   };
 
   // Calculate dimensions of the image area
